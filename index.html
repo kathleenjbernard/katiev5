@@ -549,23 +549,40 @@
                         <div class="row mt-5 vertical_content_manage">
                             <div class="col-lg-5">
                                 <div class="contact_info_box mt-3 bg-light p-5">
-                                    <div class="contact-intro">
-                                        <h5 class="text_customt mb-3" style="font-weight: bold;">If contacting me about a new project, please include a short description of your project.</h5>
-                                        <p>Emails or texts are preferred over phone calls. I look forward to talking with you and learning more about your goals!</p>
+                                    <div class="contact-intro c-align">
+                                        <h6 class="text_customt c-align" style="font-weight: bold">Contact Form</h6>
+                                        
                                     </div>
+
+                                    <form method="post" action="bat/rd-mailform.php" class="mailform off2">
+                                        <div class="container">
+                                            <input type="hidden" name="form-type" value="contact">
+
+                                            <div class="row c-align">
+                                                <div class="col-md-12">
+                                                <input type="text" name="name" placeholder="Your Name" data-constraints="@LettersOnly @NotEmpty">
+                                                </div>
+                                                <div class="col-md-12">
+                                                <input type="text" name="email" placeholder="Email" data-constraints="@Email @NotEmpty">
+                                                 </div>
+                                            <div class="col-md-12">
+                                                <input type="text" name="phone" placeholder="Phone" data-constraints="@Phone">
+                                            </div>
+                                            <div class="col-md-12">
+                                                <textarea name="message" rows="5" placeholder="Tell me a little about your project" data-constraints="@NotEmpty"></textarea>
+                                            </div>
+                                            <div class="col-md-12 text-center">
+                                                <button type="submit" class="btn btn_custom">Send Message</button>
+                                            </div>
+                                        </div>
+                                        </div>
+                                        </form>
+                                    </form>
           
                                     <div class="contact_details_content mt-4">
                                         <div class="contact_detail">
-                                            <h6 class="text_custom">email</h6>
+                                            <h6 class="text_customt">email me directly</h6>
                                             <p class="text-muted mb-0">katie@katiej.net</p>
-                                        </div>
-                                    </div>
-        
-                                    <div class="contact_details_content mt-4">
-                                        <div class="contact_detail">
-                                            <h6 class="text_custom">Text</h6>
-                                            <p class="text-muted mb-0">+302-632-6861
-                                            </p>
                                         </div>
                                     </div>
                                 </div>
