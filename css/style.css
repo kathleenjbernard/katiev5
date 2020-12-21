@@ -82,22 +82,6 @@ h2 {
     height: 100%;
 }
 
-.sent_bg_overlay_cover_on {
-    background-image: linear-gradient(to bottom, rgba(161, 255, 124, 0.829), #8bffb9c2);
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-}
-
-.sent_bg_home_personal_cover {
-    /*background-image: url(../images/just-lights.png); */
-    background-color: #22352b;
-    background-size: cover;
-    background-position: center center;
-
-}
 
 .section_title_all h3 {
     text-transform: capitalize;
@@ -256,6 +240,7 @@ h1 {
     margin-bottom: 0px;
     transition: all 0.5s ease-in-out;
     border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+    text-transform: uppercase;
 }
 
 .custom_nav_menu .social_menu .list-inline-item:not(:last-child) {
@@ -940,6 +925,7 @@ h6 {
 
 .footer_alt_cpy {
     color: #6c757d;
+    font-size: 95%;
 }
 
 .buss_icon_social_footer ul li a {
@@ -1048,75 +1034,9 @@ h6 {
     20. SUCCESS.HTML
 =======================*/
 
-#sent-home h1 {
-    font-family: 'knewave', cursive;
-    font-size: 6rem;
-    color: whitesmoke;
-    text-transform: uppercase;
-    text-shadow: 10pt 10pt 10px pink, 
-    20pt 20pt 10px yellow, 30pt 30pt 10px cyan,
-    40pt 40pt 10px lavender;
-    animation-name: moveColor;
-    animation-duration: 3s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-
-}
-
 #sent-home h2 {
     font-size: 1rem;
 }
-
-@keyframes moveColor {
-    from {
-        text-shadow: 0pt 0pt 10px lawngreen;
-        text-shadow: 0pt 0pt 10px green;
-        text-shadow: 0pt 0pt 10px lawngreen;
-        text-shadow: 0pt 0pt 10px lawngreen;
-        text-shadow: 0pt 0pt 10px yellowgreen;
-        text-shadow: 0pt 0pt 10px yellow;
-    }
-    to {
-        text-shadow: 10pt 10pt 10px lawngreen;
-        text-shadow: 15pt 15pt 20px green;
-        text-shadow: 20pt 20pt 30px lawngreen;
-        text-shadow: 25pt 25pt 40px lawngreen;
-        text-shadow: 30pt 30pt 10px yellowgreen;
-        text-shadow: 45pt 45pt 10px yellow;
-
-    }
-}
-
-
-
-@keyframes colorShift {
-    25% {
-        text-shadow: 10pt 10pt 10px pink;
-        transition: ease-in-out;
-    }
-
-    50% {
-        text-shadow: 10pt 10pt 10px pink, 
-    20pt 20pt 10px yellow;
-    transition: ease-in-out
-    }
-
-    75% {
-        text-shadow: 10pt 10pt 10px pink, 
-    20pt 20pt 10px yellow, 30pt 30pt 10px cyan;
-    transition: ease-in-out;
-}
-
-    100% {
-        text-shadow: 10pt 10pt 10px pink, 
-    20pt 20pt 10px yellow, 30pt 30pt 10px cyan,
-    40pt 40pt 10px lavender; 
-    transition: ease-in-out;
-    }
-}
-
-
-
 
 /*=====================
     20. RESPONSIVE
