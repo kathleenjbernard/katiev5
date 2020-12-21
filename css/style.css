@@ -372,6 +372,10 @@ h1 {
     background-position: center center;
 }
 
+.personal_home_title {
+    font-family: 'source code pro', italic;
+}
+
 /*=================
     0.5  ABOUT
 ===================*/
